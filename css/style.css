@@ -238,11 +238,13 @@ img {
 
 .peculiarities-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 .peculiarities-item {
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
+  position: relative;
 }
 
 .peculiarities-icon-container {
@@ -253,20 +255,21 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  display: none;
 }
 
 .peculiarities-name {
   color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 120% */
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 .peculiarities-text {
   color: var(--slate, #434455);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; /* 0.32px/16 */
 }
