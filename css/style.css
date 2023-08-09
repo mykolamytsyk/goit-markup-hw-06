@@ -240,7 +240,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
-  width: 320px;
+  /* width: 320px; */
 }
 
 .peculiarities-item {

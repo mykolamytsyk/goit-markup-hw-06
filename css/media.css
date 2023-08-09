@@ -1,12 +1,12 @@
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 768px;
+    max-width: 426px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1158px;
+    max-width: 766px;
   }
 
   .peculiarities-list {
@@ -16,5 +16,28 @@
 
   .peculiarities-item {
     width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .peculiarities {
+    padding: 120px 0;
+  }
+
+  .peculiarities-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+  .peculiarities-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
   }
 }
