@@ -220,7 +220,7 @@ img {
 /*----------- peculiarities--------------- */
 
 .peculiarities {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .visually-hidden {
@@ -240,11 +240,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
+  width: 320px;
 }
 
 .peculiarities-item {
   /* width: calc((100% - 3 * 24px) / 4); */
-  position: relative;
+  width: 100%;
 }
 
 .peculiarities-icon-container {

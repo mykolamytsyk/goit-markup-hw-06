@@ -1,0 +1,20 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .peculiarities-list {
+    padding: 0;
+    gap: 72px 24px;
+  }
+
+  .peculiarities-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
