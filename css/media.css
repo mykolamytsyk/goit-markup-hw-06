@@ -32,6 +32,10 @@
     gap: 12px;
   }
 
+  /*################---HERO---#################  */
+
+  /*################---peculiarities---#################  */
+
   .peculiarities-list {
     padding: 0;
     gap: 72px 24px;
@@ -47,6 +51,34 @@
     max-width: 1158px;
   }
 
+  /* ################--HEADER--###################### */
+
+  .header {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+
+  .header-address-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 156px;
+  }
+
+  .header-logo {
+    margin-right: 76px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    margin-left: 156px;
+  }
+
+  /*################---HERO---#################  */
+
+  /*################---peculiarities---#################  */
   .peculiarities {
     padding: 120px 0;
   }

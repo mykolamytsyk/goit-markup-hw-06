@@ -81,7 +81,7 @@ img {
 
 .header-container {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 .header-navigation {
   display: flex;
