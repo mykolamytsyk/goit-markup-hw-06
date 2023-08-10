@@ -44,6 +44,9 @@
   .peculiarities-item {
     width: calc((100% - 24px) / 2);
   }
+  .peculiarities-name {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1158px) {
