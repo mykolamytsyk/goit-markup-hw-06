@@ -92,7 +92,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 249px;
+  /* margin-right: 249px; */
 }
 
 .header-logo-color {
@@ -173,6 +173,14 @@ img {
   display: block;
   border: none;
   background: none;
+}
+
+.js-open-menu {
+  margin-left: auto;
+  border: none;
+  background: none;
+  width: 32px;
+  height: 22px;
 }
 
 /* .header-address-item {
