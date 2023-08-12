@@ -402,6 +402,7 @@ img {
 /* -----products----------- */
 
 .products {
+  display: none;
   padding-bottom: 120px;
 }
 
