@@ -33,6 +33,43 @@
   }
 
   /*################---HERO---#################  */
+  .hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07; /* 107.143% */
+    letter-spacing: 0.02em;
+    text-align: center;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+  }
+
+  .hero {
+    background-color: var(--navyblue, #2e2f42);
+    padding: 188px 0 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tab.jpg);
+    /* max-width: 1440px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tab-2x.jpg);
+    }
+  }
 
   /*################---peculiarities---#################  */
 
@@ -66,7 +103,7 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
-    margin-right: 156px;
+    margin-left: 332px;
   }
 
   .header-logo {
@@ -75,11 +112,42 @@
 
   .header-container {
     display: flex;
-    align-items: center;
-    margin-left: 156px;
+    /* align-items: center; */
+    /* margin-left: 156px; */
   }
 
   /*################---HERO---#################  */
+
+  .hero {
+    background-color: var(--navyblue, #2e2f42);
+    padding: 188px 0 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-desk-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
 
   /*################---peculiarities---#################  */
   .peculiarities {

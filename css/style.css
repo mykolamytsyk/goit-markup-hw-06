@@ -285,24 +285,36 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
-  max-width: 1440px;
+    url(../images/hero-bg-mob.jpg);
+  /* max-width: 1440px; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-mob-2x.jpg);
+  }
+}
+
 .hero-title {
   color: var(--white, #fff);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 320px;
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 .hero-button {
