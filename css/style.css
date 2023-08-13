@@ -518,8 +518,8 @@ img {
 /*#################### SECTION 5 #################*/
 
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers-title {
@@ -535,12 +535,14 @@ img {
 
 .customers-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .customers-item {
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 24px) / 2);
   height: 88px;
+  margin-bottom: 72px;
 }
 
 .customers-link {
@@ -573,15 +575,18 @@ img {
   background: var(--navyblue, #2e2f42);
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 
 .footer-logo-paragraf {
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 .footer-logo {
@@ -594,6 +599,8 @@ img {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .footer-logo-color {
@@ -605,7 +612,8 @@ img {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; /* 0.32px/16 */
-  max-width: 264px;
+  max-width: 320px;
+  margin-bottom: 72px;
 }
 
 .footer-text-underlogo {
@@ -615,6 +623,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--white-cl);
   margin-bottom: 16px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-list {
@@ -648,19 +659,23 @@ img {
 }
 
 .footer-form-section {
-  margin-left: 80px;
 }
 
 .footer-title-form {
+  margin-top: 72px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-form {
-  display: flex;
+  /* display: flex; */
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -672,7 +687,7 @@ img {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding-left: 16px;
+  /* padding-left: 16px; */
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
@@ -683,11 +698,11 @@ img {
 }
 
 .footer-button-subscribe {
-  min-width: 165px;
+  /* min-width: 165px; */
   height: 40px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
@@ -697,10 +712,13 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-button-icon {
-  margin-left: 16px;
+  /* margin-left: 16px; */
   fill: var(--cloud-cl);
 }
 

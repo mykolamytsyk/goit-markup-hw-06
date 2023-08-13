@@ -104,6 +104,18 @@
   .team-title {
     margin-bottom: auto;
   }
+  /*################---CUSTOMERS---#################  */
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 108px;
+  }
+
+  .customers-item {
+    width: calc((100% - 16px) / 4);
+    height: 88px;
+    margin-bottom: 72px;
+  }
 }
 
 /* №№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
@@ -216,4 +228,17 @@
   }
 
   /*################---OUR TEAM---#################  */
+
+  /*################---CUSTOMERS---#################  */
+
+  .customers-list {
+    display: flex;
+    gap: 24px;
+    padding-right: 156px;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
 }
