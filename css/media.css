@@ -88,6 +88,17 @@
   .peculiarities-name {
     text-align: left;
   }
+  /*################---OUR TEAM---#################  */
+  .team-list {
+    padding: 0;
+    gap: 72px 24px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 /* №№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
