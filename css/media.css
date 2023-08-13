@@ -86,7 +86,7 @@
   }
 
   .products {
-    padding-bottom: 120px;
+    display: flex;
   }
 }
 
@@ -192,6 +192,6 @@
   }
 
   .products {
-    padding-bottom: 120px;
+    display: flex;
   }
 }
