@@ -91,13 +91,18 @@
   /*################---OUR TEAM---#################  */
   .team-list {
     padding: 0;
-    gap: 72px 24px;
     display: flex;
     flex-wrap: wrap;
   }
 
   .team-item {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 48px) / 2);
+    margin-top: 64px;
+
+    width: auto;
+  }
+  .team-title {
+    margin-bottom: auto;
   }
 }
 
@@ -209,4 +214,6 @@
   .products {
     display: flex;
   }
+
+  /*################---OUR TEAM---#################  */
 }
