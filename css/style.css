@@ -572,22 +572,26 @@ img {
 /* ##################--FOOTER--################### */
 
 .footer {
+  /* display: flex;
+  flex-wrap: wrap; */
+
   background: var(--navyblue, #2e2f42);
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .footer-container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: baseline; */
+  width: 100%;
 }
 
-.footer-logo-paragraf {
-  /* margin-right: 120px; */
-}
+/* .footer-logo-paragraf {
+  margin-right: 120px;
+} */
 
 .footer-logo {
   color: var(--accent-cl);
@@ -598,22 +602,29 @@ img {
   letter-spacing: 0.03em; /* 0.54px/18 */
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
-  padding-left: 100px;
-  padding-right: 100px;
+  margin-bottom: 17.5px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 .footer-logo-color {
   color: var(--iris, #f4f4fd);
 }
 .footer-text {
+  /* display: flex; */
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; /* 0.32px/16 */
-  max-width: 320px;
+  max-width: 300px;
   margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-text-underlogo {
@@ -623,13 +634,19 @@ img {
   letter-spacing: 0.02em;
   color: var(--white-cl);
   margin-bottom: 16px;
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
 }
 
 .footer-list {
   display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -658,8 +675,8 @@ img {
   fill: var(--cloud-cl);
 }
 
-.footer-form-section {
-}
+/* .footer-form-section {
+} */
 
 .footer-title-form {
   margin-top: 72px;
@@ -674,8 +691,10 @@ img {
   margin-right: auto;
 }
 .footer-form {
-  /* display: flex; */
+  display: flex;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
   gap: 24px;
 }
 

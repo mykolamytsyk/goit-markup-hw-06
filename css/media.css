@@ -116,6 +116,63 @@
     height: 88px;
     margin-bottom: 72px;
   }
+
+  /*################---FOOTER---#################  */
+
+  .footer-label-input {
+    width: 264px;
+    margin-left: 108px;
+    margin-right: auto;
+  }
+
+  .footer-button-subscribe {
+    min-width: 165px;
+    height: 40px;
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+    margin-left: 24px;
+    margin-right: auto;
+  }
+  .footer-title-form {
+    margin-left: 108px;
+  }
+  .footer-text {
+    max-width: 300px;
+    margin-bottom: 72px;
+    margin-left: 108px;
+  }
+  .footer-logo {
+    color: var(--accent-cl);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.03em; /* 0.54px/18 */
+    text-transform: uppercase;
+    display: inline-flex;
+    margin-bottom: 17.5px;
+    margin-left: 108px;
+  }
+
+  .footer-text-underlogo {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-cl);
+    margin-bottom: 16px;
+    margin-left: 108px;
+
+    display: inline;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 108px;
+    gap: 16px;
+  }
 }
 
 /* №№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
