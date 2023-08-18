@@ -1,6 +1,6 @@
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 426px;
+    max-width: 428px;
   }
   .mobile-social-list {
     gap: 56px;
@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 768px;
   }
 
   /* ################--HEADER--###################### */
@@ -248,8 +248,6 @@
 
   .header-container {
     display: flex;
-    /* align-items: center; */
-    /* margin-left: 156px; */
   }
 
   /*################---HERO---#################  */
@@ -351,8 +349,8 @@
     background: var(--navyblue, #2e2f42);
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
-    padding-right: 159px;
+    padding-left: 130px;
+    padding-right: 130px;
   }
 
   .footer-container {
@@ -367,7 +365,6 @@
 
   .footer-logo-paragraf {
     margin-bottom: 0;
-    margin-right: 120px;
   }
 
   .footer-logo {
@@ -391,7 +388,7 @@
     font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em; /* 0.32px/16 */
-    width: auto;
+    /* width: auto; */
     margin-bottom: 0;
     max-width: 264px;
   }
@@ -405,6 +402,9 @@
     margin-bottom: 16px;
     display: inline;
     margin-left: 0;
+  }
+  .footer-paragraf-icons {
+    margin-left: 120px;
   }
 
   .footer-list {

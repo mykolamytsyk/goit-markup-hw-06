@@ -590,6 +590,10 @@ img {
 
 .footer-logo-paragraf {
   margin-bottom: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 .footer-logo {
@@ -604,26 +608,25 @@ img {
   margin-bottom: 17.5px;
   /* padding-left: 100px;
   padding-right: 100px; */
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
 }
 
 .footer-logo-color {
   color: var(--iris, #f4f4fd);
 }
 .footer-text {
-  /* display: flex; */
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; /* 0.32px/16 */
   max-width: 300px;
-
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: justify;
 }
 
 .footer-text-underlogo {
