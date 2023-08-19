@@ -341,7 +341,12 @@
   }
 
   /*################---OUR TEAM---#################  */
-
+  .team-list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+  }
   /*################---CUSTOMERS---#################  */
 
   .customers {
