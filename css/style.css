@@ -66,8 +66,8 @@ img {
 
 .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
@@ -537,13 +537,12 @@ img {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px 24px;
 }
 
 .customers-item {
   width: calc((100% - 24px) / 2);
   height: 88px;
-  margin-bottom: 72px;
 }
 
 .customers-link {
